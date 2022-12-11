@@ -29,7 +29,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@commitlint/cli", "npm:17.3.0"],\
-            ["@commitlint/config-conventional", "npm:17.3.0"]\
+            ["@commitlint/config-conventional", "npm:17.3.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -706,7 +707,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dandan", "workspace:."],\
             ["@commitlint/cli", "npm:17.3.0"],\
-            ["@commitlint/config-conventional", "npm:17.3.0"]\
+            ["@commitlint/config-conventional", "npm:17.3.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
           ],\
           "linkType": "SOFT"\
         }]\
