@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:882a9535e931e5ad39eebefa56c997992ec61f45a22d559cd2e4ead15a88b58e1cf3e6412e79959d5a3b46a20cd3c961db763bbc92b98753d2c694b05d192532#npm:2.26.0"],\
             ["eslint-plugin-react", "virtual:882a9535e931e5ad39eebefa56c997992ec61f45a22d559cd2e4ead15a88b58e1cf3e6412e79959d5a3b46a20cd3c961db763bbc92b98753d2c694b05d192532#npm:7.31.11"],\
             ["eslint-plugin-react-hooks", "virtual:882a9535e931e5ad39eebefa56c997992ec61f45a22d559cd2e4ead15a88b58e1cf3e6412e79959d5a3b46a20cd3c961db763bbc92b98753d2c694b05d192532#npm:4.6.0"],\
+            ["husky", "npm:8.0.2"],\
             ["prettier", "npm:2.8.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
           ],\
@@ -1210,6 +1211,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:882a9535e931e5ad39eebefa56c997992ec61f45a22d559cd2e4ead15a88b58e1cf3e6412e79959d5a3b46a20cd3c961db763bbc92b98753d2c694b05d192532#npm:2.26.0"],\
             ["eslint-plugin-react", "virtual:882a9535e931e5ad39eebefa56c997992ec61f45a22d559cd2e4ead15a88b58e1cf3e6412e79959d5a3b46a20cd3c961db763bbc92b98753d2c694b05d192532#npm:7.31.11"],\
             ["eslint-plugin-react-hooks", "virtual:882a9535e931e5ad39eebefa56c997992ec61f45a22d559cd2e4ead15a88b58e1cf3e6412e79959d5a3b46a20cd3c961db763bbc92b98753d2c694b05d192532#npm:4.6.0"],\
+            ["husky", "npm:8.0.2"],\
             ["prettier", "npm:2.8.1"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
           ],\
@@ -2330,6 +2332,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/human-signals-npm-2.1.0-f75815481d-b87fd89fce.zip/node_modules/human-signals/",\
           "packageDependencies": [\
             ["human-signals", "npm:2.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["husky", [\
+        ["npm:8.0.2", {\
+          "packageLocation": "./.yarn/cache/husky-npm-8.0.2-46c70b41ed-e101656fcb.zip/node_modules/husky/",\
+          "packageDependencies": [\
+            ["husky", "npm:8.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
