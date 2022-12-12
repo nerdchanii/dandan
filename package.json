@@ -22,6 +22,7 @@
     "typescript": "4.9.3"
   },
   "scripts": {
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "g:typecheck": "yarn workspaces foreach -pv run typecheck"
   }
 }
