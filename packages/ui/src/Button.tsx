@@ -1,10 +1,16 @@
-import React from 'react';
+import { ButtonHTMLAttributes, MouseEventHandler, ReactNode } from 'react';
 
-type Props = {};
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+  children: ReactNode;
+  onClick: MouseEventHandler<HTMLButtonElement>;
+}
 
-const Button = (props: Props) => {
+
+const Button = ({ children, onClick, ...props }: ButtonProps) => {
   return (
-    <div>Button</div>
+    <button onClick={onClick} {...props}>
+      {children}
+    </button>
   )
 }
 
