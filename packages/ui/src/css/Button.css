@@ -1,0 +1,32 @@
+button {
+  text-align: center;
+  align-items: center;
+}
+
+button:is(.sm) {
+  padding: 2px;
+  font-size: small;
+}
+button:is(.md) {
+  padding: 4px;
+  font-size: medium;
+}
+
+button:is(.lg) {
+  padding: 8px;
+  font-size: medium;
+}
+
+/* shape of button */
+button:is(.primary) {
+  background-color: #22aa22;
+  color: white;
+}
+
+button:is(.secondary) {
+  background-color: #efefef;
+}
+
+button:is(.thirtiory) {
+  background-color: transparent;
+}
