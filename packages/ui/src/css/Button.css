@@ -1,20 +1,24 @@
 button {
   text-align: center;
   align-items: center;
+  line-height: 1rem;
 }
 
 button:is(.sm) {
   padding: 2px;
-  font-size: small;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
 }
 button:is(.md) {
   padding: 4px;
   font-size: medium;
+  line-height: 1rem;
 }
 
 button:is(.lg) {
   padding: 8px;
   font-size: medium;
+  line-height: 1rem;
 }
 
 /* shape of button */
